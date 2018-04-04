@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+</head>
+<img src="http://gdurl.com/aAwO" style="height:500px;width:1900px">
+</img>
+<font face="Calibri">
+</font>
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Address')">Address</button>
+  <button class="tablinks" onclick="openCity(event, 'Company Number')">Company Number</button>
+  <button class="tablinks" onclick="openCity(event, 'Email')">Email</button>
+</div>
+</body>
+<style>
+  .button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    font-family: Arial;
+  }
+
+  /* Style the tab */
+
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+
+  /* Style the buttons inside the tab */
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+  /* Change background color of buttons on hover */
+
+  .tab button:hover {
+    background-color: #ddd;
+  }
+
+  /* Create an active/current tablink class */
+
+  .tab button.active {
+    background-color: #ccc;
+  }
+
+  /* Style the tab content */
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  /* Style the close button */
+
+  .topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+  }
+
+  .topright:hover {
+    color: red;
+  }
+</style>
+</head>
+
+<div id="Email" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Email</h3>
+  <p>rayhurt@bellsouth.net</p>
+</div>
+
+<div id="Address" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Address</h3>
+  <p>1210 Industrial Park Road Halls TN 38040</p>
+</div>
+
+<div id="Company Number" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>Company Number</h3>
+  <p>(731) 836-7574</p>
+</div>
+
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My New Pen!</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+</head>
+<font face="Calibri">
+  <h3>Hurt Seed Company is located in Halls, Tn and has been in buisness since 1932. Today it is run by Ray Hurt, and has expanded it over the 25 years he has been in charge. Hurt Seed works to ensure professional services for top quality production so customers
+    can be assured of top quality product in each bag. Hurt Seed Company works to ensure professional services for top quality production so our customers can be asssured of top qualityproduct in each bag. As a company, Hurt Seed's plant specs are above
+    average. Hurt Seed is capable of packaging 20,000 units per day. They are capable of holding 320,000 bushel of bulk storage and are capable of dumping 8 bulk trucks per hour. Hurt Seed is capable of storing large amounts of seed because they own a
+    200,000 square feet of warehouse storage. As well as being able to hold large amounts of seed, Hurt Seed is capable 4,000 units per day, and is capable of loading 6 outbound trucks an hour at 10 load out docks. Hurt Seed is capable of storing large
+    amounts of seed because they own a 200,000 square feet of warehouse storage. Hurt Seed Company works to ensure professional services for top quality production so our customers can be asssured of top quality product in each bag.</h3>
+</font>
+<!-- Scripts -->
+<script src="scripts/index.js"></script>
+
+<script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+<style>
+  .button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    font-family: Arial;
+  }
+
+  /* Style the tab */
+
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+
+  /* Style the buttons inside the tab */
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+  /* Change background color of buttons on hover */
+
+  .tab button:hover {
+    background-color: #ddd;
+  }
+
+  /* Create an active/current tablink class */
+
+  .tab button.active {
+    background-color: #ccc;
+  }
+
+  /* Style the tab content */
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  /* Style the close button */
+
+  .topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+  }
+
+  .topright:hover {
+    color: red;
+  }
+</style>
+ <p class=bttn>
+  <a href="https://s.codepen.io/WhitHurt/debug/jZpQZZ/XxkVwDgaxEXM/ class="button ">Production History</a>
+  <a href="https://s.codepen.io/WhitHurt/debug/bLjQMr/vPrKKVJzDWgr/ class="button ">General History</a>
+  <a href="https://s.codepen.io/WhitHurt/debug/QQBJBQ/jVkpogGyVegA/ class="button ">Benefits</a>
+  <a href="https://s.codepen.io/WhitHurt/debug/EQpOez/LDMmdVvPKyak/ class="button ">Page 5</a>
+</p>
+</head>
+
+</html>
